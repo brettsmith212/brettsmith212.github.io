@@ -4,9 +4,3 @@
 
 layout: home
 ---
-
-## Hello
-
-This is some content!
-
-- Here is a bullet
