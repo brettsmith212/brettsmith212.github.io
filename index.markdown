@@ -5,8 +5,8 @@
 layout: home
 ---
 
-# Welcome to the home page!
+## Hello
 
-This is where I will add some blog posts and thoughts about the software world.
+This is some content!
 
-Hopefully this works
+- Here is a bullet
