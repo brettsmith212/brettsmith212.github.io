@@ -4,15 +4,10 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Hi, I'm Brett! I am a software engineer at Bloomberg. I have experience writing software in C++, Python, Go and Typescript. Best way to reach me is via email -> brettsmith212@gmail.com
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+<div style="display: flex; justify-content: left; align-items: center; gap: 30px;">
+<a href="https://github.com/brettsmith212" target="_blank">Github</a>
+<a href="https://x.com/brettsmth" target="_blank">Twitter</a>
+<a href="https://www.linkedin.com/in/brettsmith212" target="_blank">LinkedIn</a>
+</div>
