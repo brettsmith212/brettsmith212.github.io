@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "AI + Online Forums = Your Next Big Idea?"
-date:   2024-08-22
+date:   2024-08-21
 ---
 <a href="https://podcasts.apple.com/us/podcast/lex-fridman-podcast/id1434243584?i=1000666042340" target="_blank">Pieter Levels: Programming, Viral AI Startups, and Digital Nomad Life</a>
 
@@ -11,8 +11,8 @@ Also before I start, it's impossible to focus on a podcast for 4 hours straight.
 
 While Lex was talking about all of the painpoints he experiences while traveling, such as where the fastest internet is, what places to stay actually look the same as in the online pictures, etc, it made me think about how hard it is to come up with good ideas. Maybe a better way of saying it is how hard it is to come up with *worthwhile* ideas. Bad ideas are a dime a dozen, but an idea that sticks with you so strongly that you have to build it is hard to come by.
 
-That's when I made the connection between what Wade Foster said in my previous [blog post](2024-08-19-forums.html) and what Pieter Levels was sharing with his 12 startups in 12 months experience. What if there was a way to utilize AI and online forums for validated business ideas. By validated business ideas, I mean ideas with people willing to pay for the solution.
+That's when I made the connection between what Wade Foster said in my previous <a href="{% post_url /2024/2024-08-19-forums %}" target="_blank">blog post</a> and what Pieter Levels was sharing with his 12 startups in 12 months experience. What if there was a way to utilize AI and online forums for validated business ideas. By validated business ideas, I mean ideas with people willing to pay for the solution.
 
-This may be a good opportunity to hack something together and ship it as quickly as possible. A while back I purchased Marc Lou's [ShipFast](https://shipfa.st/) product and have yet to actually put it to good use.
+This may be a good opportunity to hack something together and ship it as quickly as possible. A while back I purchased Marc Lou's <a href="https://shipfa.st" target="_blank">ShipFast</a> product and have yet to actually put it to good use.
 
 Maybe now is the time to put it to work.
