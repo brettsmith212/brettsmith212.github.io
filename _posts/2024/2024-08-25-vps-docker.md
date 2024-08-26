@@ -187,7 +187,8 @@ CMD HOSTNAME="0.0.0.0" node server.js
 - `NEXT_PUBLIC_SUPABASE_URL`: from supabase
 - `SUPABASE_SERVICE_ROLE_KEY`: from supabase
 
-> .github/workflows/docker-build-push.yaml
+3. Create File: `.github/workflows/docker-build-push.yaml`
+
 ```yaml
 name: Docker Build, Push, and Deploy
 
