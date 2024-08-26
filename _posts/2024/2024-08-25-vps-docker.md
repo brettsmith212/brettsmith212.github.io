@@ -10,24 +10,35 @@ The fastest way to deploy code to production for solo hackers (and only $4/month
 
 ## Digital Ocean Droplet Setup
 
-### 1. **digitalocean.com**
+### 1. digitalocean.com
 Create Droplet
+
 Authentication Method - SSH Key
+
 **local machine:**
+
 `ssh-keygen -f digitalocean`
+
 `cat .ssh/id_rsa_digitalocean.pub`
+
 Copy & Paste this key into SSH Key box on digital ocean
 
 ### 2. SSH into remote machine
 `ssh root@ip_address`
+
 `apt-get update`
+
 `apt-get upgrade`
+
 check that *local machine:*`.ssh/id_rsa_digitalocean.pub` value is found in *remote machine:*`.ssh/authorized_keys`
 
 ### 3. Setup SSH keys in remote machine
 **remote machine:**
+
 `mkdir .ssh`
+
 `touch .ssh/authorized_keys`
+
 copy *local machine* `.ssh/id_rsa.pub` to *remote machine* `.ssh/authorized_keys`
 
 ## Using Docker w/ Next.js in Droplet Setup
@@ -43,6 +54,7 @@ const nextConfig = {
 - <a href="https://github.com/vercel/next.js/blob/canary/examples/with-docker/Dockerfile" target="_blank">Dockerfile Example</a>
 - <a href="https://github.com/vercel/next.js/blob/canary/examples/with-docker/.dockerignore" target="_blank">.dockerignore Example</a>
 
+- Use [8. Setup Dockerfile](#8-setup-dockerfile) for Dockerfile w/ Supabase Env Variables
 - Run locally with `docker run -p 3000:3000 <repo-name>`
 
 ### 3. Github Package Registry
@@ -78,7 +90,6 @@ const nextConfig = {
 ### 6. Setup SSL
 1. <a href="https://certbot.eff.org/" target="_blank">Certbot</a> -> Follow steps
  - Nginx -> Ubuntu
-	- Nginx -> Ubuntu
 
 ### 7. Enable Firewall on Digital Ocean Droplet (using `ufw` firewall in Ubuntu)
 1. See apps using `ufw app list`
@@ -88,7 +99,7 @@ const nextConfig = {
 4. See new rules `ufw status`
 	- This shows the only ports available
 
-### 8. Setup Dockerfile
+### 8. Setup Dockerfile (Supabase Edition)
 
 ```dockerfile
 FROM node:18-alpine AS base
