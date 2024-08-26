@@ -90,8 +90,6 @@ const nextConfig = {
 
 ### 8. Setup Dockerfile
 
-> Dockerfile
-<br>
 ```dockerfile
 FROM node:18-alpine AS base
 
