@@ -53,7 +53,7 @@ const nextConfig = {
 - <a href="https://github.com/vercel/next.js/blob/canary/examples/with-docker/Dockerfile" target="_blank">Dockerfile Example</a>
 - <a href="https://github.com/vercel/next.js/blob/canary/examples/with-docker/.dockerignore" target="_blank">.dockerignore Example</a>
 
-- Use [8. Setup Dockerfile](#8-setup-dockerfile) for Dockerfile w/ Supabase Env Variables
+- Use [8. Setup Dockerfile](#8-setup-dockerfile-supabase-edition) for Dockerfile w/ Supabase Env Variables
 - Run locally with `docker run -p 3000:3000 <repo-name>`
 
 ### 3. Github Package Registry
