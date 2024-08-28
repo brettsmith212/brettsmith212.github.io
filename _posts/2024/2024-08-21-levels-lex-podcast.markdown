@@ -1,4 +1,5 @@
 ---
+layout: post
 title:  "AI + Online Forums = Your Next Big Idea?"
 date:   2024-08-21
 ---
