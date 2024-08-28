@@ -1,6 +1,6 @@
 ---
 title:  "Digital Ocean VPS - Docker + Next.js Deployment"
-date:   2024-08-23
+date:   2024-08-25
 ---
 
 The fastest way to deploy code to production for solo hackers (and only $4/month):
@@ -199,6 +199,7 @@ CMD HOSTNAME="0.0.0.0" node server.js
 
 3. Create File: `.github/workflows/docker-build-push.yaml`
 
+{% raw %}
 ```yaml
 name: Docker Build, Push, and Deploy
 
@@ -254,6 +255,7 @@ jobs:
             docker run -d -p 3000:3000 --name shipfast-test --restart always ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest
           '
 ```
+{% endraw %}
 
 ### Resources
 
