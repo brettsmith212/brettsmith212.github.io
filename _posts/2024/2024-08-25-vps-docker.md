@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Digital Ocean VPS - Docker + Next.js Deployment"
 date:   2024-08-23
 ---

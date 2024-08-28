@@ -1,9 +1,7 @@
 ---
-layout: post
 title:  "AI + Online Forums = Your Next Big Idea?"
 date:   2024-08-21
 ---
-<a href="https://podcasts.apple.com/us/podcast/lex-fridman-podcast/id1434243584?i=1000666042340" target="_blank">Pieter Levels: Programming, Viral AI Startups, and Digital Nomad Life</a>
 
 This 3 hour and 45 minute conversation between Pieter Levels and Lex Fridman has an incredible amount of content to unpack. Rather than summarizing it, I'll share what it inspired me to do.
 
@@ -16,3 +14,5 @@ That's when I made the connection between what Wade Foster said in my previous <
 This may be a good opportunity to hack something together and ship it as quickly as possible. A while back I purchased Marc Lou's <a href="https://shipfa.st" target="_blank">ShipFast</a> product and have yet to actually put it to good use.
 
 Maybe now is the time to put it to work.
+
+<a href="https://podcasts.apple.com/us/podcast/lex-fridman-podcast/id1434243584?i=1000666042340" target="_blank">Pieter Levels: Programming, Viral AI Startups, and Digital Nomad Life</a>
